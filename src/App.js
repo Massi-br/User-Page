@@ -35,7 +35,7 @@ const App = () => {
 
           <div className="mesAnnonces">
             <p>Mes Annonces</p>
-            <Link to="/Components/annonces">
+            <Link to="/Components/mesannonces">
               <Button variant="contained" className="ordersButton">
                 Voir
               </Button>
@@ -44,13 +44,11 @@ const App = () => {
 
           <div className="AjoutAnnonce">
             <p>Ajouter une Annonce</p>
-            <Button
-              variant="contained"
-              className="ordersButton"
-              onClick={() => null}
-            >
-              Ajout
-            </Button>
+            <Link to="/Components/addannonce">
+              <Button variant="contained" className="ordersButton">
+                Ajout
+              </Button>
+            </Link>
           </div>
         </div>
 
